@@ -7,7 +7,7 @@ class Rectangle {
 	Rectangle(double l, double b) {
 		this.l = l;
 		this.b = b;
-	}
+	}	
 	
 	double area() {
 		return l*b;
