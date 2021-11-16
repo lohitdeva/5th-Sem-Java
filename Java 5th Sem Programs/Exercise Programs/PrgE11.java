@@ -42,8 +42,8 @@ class PrgE11 {
 		amount += tax;
 		System.out.println("\n**********ELECTRICITY BILL **********\n");
 		System.out.println("Name: " + name);
-		System.out.println("Previous Reading: " + previous_reading);
-		System.out.println("Current Reading: " + current_reading);
+		System.out.println("Previous Reading: " + previous_reading + " kWh");
+		System.out.println("Current Reading: " + current_reading + " kWh");
 		System.out.println("Fixed Charges: " + fixed_charge);
 		System.out.println("Electricity Tax at 5%: " + df.format(tax));
 		System.out.println("\nTotal Bill Amount: " + df.format(amount));
