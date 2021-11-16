@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-class PrgE4 {
+class PrgE5 {
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int a[] = new int [4];
