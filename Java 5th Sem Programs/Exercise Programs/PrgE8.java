@@ -28,13 +28,13 @@ class PrgE8 {
 			low++;
 		}
 		System.out.println("The odd numbers are: ");
-		for (int z = 0; z < odd_range; z++) {
+		for (int z = 0; z < range; z++) {
 			if (odd_nums[z] == 0)
 				continue;
 			System.out.print(odd_nums[z] + " ");
 		}
 		System.out.println("\nThe even numbers are: ");
-		for (int z = 0; z < even_range; z++) {
+		for (int z = 0; z < range; z++) {
 			if (even_nums[z] == 0)
 				continue;
 			System.out.print(even_nums[z] + " ");
