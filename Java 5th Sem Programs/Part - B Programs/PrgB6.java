@@ -26,8 +26,6 @@ class PrgB6 {
 			compute(20);
 		} catch (Exception e) {
 			System.out.println("Caught: " + e);
-		} finally {
-			System.out.println("Finally executing");
 		}
 	}
 }
